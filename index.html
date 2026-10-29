@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air India: Book Domestic & International Non-Stop Direct Flights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <a href="#" class="top-link">FEEDBACK</a>
+                    <a href="#" class="top-link">BOOK & MANAGE</a>
+                    <a href="#" class="top-link">WHERE WE FLY</a>
+                    <a href="#" class="top-link">PREPARE TO TRAVEL</a>
+                    <a href="#" class="top-link">AIR INDIA EXPERIENCE</a>
+                    <a href="#" class="top-link">MAHARAJA CLUB</a>
+                    <a href="#" class="top-link">SUPPORT</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="nav-left">
+                        <div class="logo">
+                            <img src="https://www.airindia.com/adobe/dynamicmedia/deliver/dm-aid--3c6a707f-2e38-48d0-ac12-4751c4f554ba/AI_Logo_Red_New.svg" alt="Air India" class="logo-img">
+                        </div>
+                        <ul class="nav-menu">
+                            <li class="nav-item"><a href="#" class="nav-link">Plan & Book</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Manage</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Experience</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Where we fly</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Maharaja Club</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-right">
+                        <a href="#" class="nav-icon-link">Login / Sign up</a>
+                        <select class="country-select">
+                            <option>IN | English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Booking Section -->
+        <section class="booking-section">
+            <div class="container">
+                <div class="booking-card">
+                    <div class="booking-tabs">
+                        <button class="booking-tab active">Flights</button>
+                        <button class="booking-tab">Manage Booking</button>
+                        <button class="booking-tab">Web Check-in</button>
+                        <button class="booking-tab">Flight Status</button>
+                    </div>
+                    
+                    <div class="booking-form">
+                        <div class="trip-type">
+                            <label class="radio-label">
+                                <input type="radio" name="trip" value="roundtrip" checked>
+                                <span>Round Trip</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="trip" value="oneway">
+                                <span>One Way</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="trip" value="multicity">
+                                <span>Multi City</span>
+                            </label>
+                        </div>
+                        
+                        <div class="route-row">
+                            <div class="form-group">
+                                <label class="form-label">From</label>
+                                <input type="text" class="form-input" placeholder="Delhi (DEL)" value="Delhi (DEL)">
+                            </div>
+                            <button class="swap-btn">⇄</button>
+                            <div class="form-group">
+                                <label class="form-label">To</label>
+                                <input type="text" class="form-input" placeholder="Mumbai (BOM)">
+                            </div>
+                        </div>
+                        
+                        <div class="date-row">
+                            <div class="form-group">
+                                <label class="form-label">Departure</label>
+                                <input type="date" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Return</label>
+                                <input type="date" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Passengers & Class</label>
+                                <select class="form-input">
+                                    <option>1 Adult, Economy</option>
+                                    <option>2 Adults, Economy</option>
+                                    <option>1 Adult, Business</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <button class="search-btn">SEARCH FLIGHTS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offers Section -->
+        <section class="offers-section">
+            <div class="container">
+                <h2 class="section-title">Special Offers</h2>
+                <div class="offers-grid">
+                    <div class="offer-card">
+                        <div class="offer-image"></div>
+                        <div class="offer-content">
+                            <h3 class="offer-title">Fly with us this season</h3>
+                            <p class="offer-desc">Enjoy great fares on domestic and international flights</p>
+                            <a href="#" class="offer-link">Book Now →</a>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-image"></div>
+                        <div class="offer-content">
+                            <h3 class="offer-title">Maharaja Club</h3>
+                            <p class="offer-desc">Earn miles and enjoy exclusive benefits</p>
+                            <a href="#" class="offer-link">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-image"></div>
+                        <div class="offer-content">
+                            <h3 class="offer-title">Travel Ready</h3>
+                            <p class="offer-desc">Check travel requirements and guidelines</p>
+                            <a href="#" class="offer-link">View Details →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-heading">About Air India</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Media Center</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Baggage</a></li>
+                        <li><a href="#">Travel Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Air India Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
